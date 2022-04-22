@@ -22,7 +22,7 @@ int main() {
     int i = 0;
     i = GG(MAX_LENGTH, MESSAGE, i);
     if (i >= MAX_LENGTH) {
-        printf("Ob'yem prevyshen");
+        printf("Over");
         return 1;
     }
     const char circle[] = "circle";
@@ -31,13 +31,13 @@ int main() {
             continue;
         } 
 		else {
-            printf("Nepravil'nyy vvod teksta");
+            printf("Windows crush");
             return 2;
         }
     }
     i = GG(MAX_LENGTH, MESSAGE, i);
     if (i >= MAX_LENGTH) {
-        printf("Ob'yem prevyshen");
+        printf("Over");
         return 1;
     }
     float x, y, r;
@@ -46,5 +46,6 @@ int main() {
         printf("%s\n", circle);
     } 
 	else {
-        printf("Nevernyy vvod koordinat");
+        printf("Error coordinates");
     }
+}
